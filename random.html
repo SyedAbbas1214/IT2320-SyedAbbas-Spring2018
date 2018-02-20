@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>100 arrays</h2>
+
+<p>using loop:</p>
+
+<p id="demo"></p>
+
+<script>
+var names, text, fLen, i;
+
+names = ["ali", "jake", "poli", "chan","ali2", "jake2", "poli3", "chan3"
+,"ali4", "jake4", "poli4", "chan4","ali5", "jake5", "poli5", "chan5"
+,"ali6", "jake6", "poli6", "chan6","ali7", "jake7", "poli7", "chan7","ali8", "jake8", "poli8", "chan8"
+,"ali9", "jake9", "poli9", "chan9","ali10", "jake10", "poli10", "chan10","ali11", "jake11", "poli11", "chan11"
+,"ali12", "jake12", "poli12", "chan12","ali13", "jake13", "poli13", "chan13"
+,"ali14", "jake14", "poli14", "chan14","ali15", "jake15", "poli15", "chan15"
+,"ali16", "jake16", "poli16", "chan16","ali17", "jake17", "poli17", "chan17"
+,"ali18", "jake18", "poli18", "chan18","ali19", "jake19", "poli19", "chan19"
+,"ali20", "jake20", "poli20", "chan20","ali21", "jake21", "poli21", "chan21"
+,"ali22", "jake22", "poli22", "chan22","ali23", "jake23", "poli23", "chan23"
+,"ali24", "jake24", "poli24", "chan24","ali25", "jake25", "poli25", "chan25"];
+fLen = names.length;
+text = "<ul>";
+for (i = 0; i < fLen; i++) {
+    text += "<li>" + names[i] + "</li>";
+}
+text += "</ul>";
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
